@@ -1,0 +1,30 @@
+{
+    "name": "@tarxemo/react-uploader",
+    "version": "1.0.2",
+    "description": "Themed React file uploader component for @tarxemo/file-uploader",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "src"
+    ],
+    "peerDependencies": {
+        "react": ">=18",
+        "react-dom": ">=18"
+    },
+    "dependencies": {
+        "axios": "^1.6.2",
+        "lucide-react": "^0.562.0",
+        "classnames": "^2.5.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.1",
+        "@types/react-dom": "^18.3.1",
+        "typescript": "^5.0.0"
+    },
+    "authors": [
+        "TarXemo"
+    ],
+    "license": "ISC"
+}
